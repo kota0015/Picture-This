@@ -35,7 +35,7 @@ h4 {
 img {
   display: block;
   width: 100%;
-  border: solid 2px black
+  
 }
 
 @media (min-width: 960px) {
