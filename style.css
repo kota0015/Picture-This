@@ -2,6 +2,7 @@
 
 html,
 body {
+  box-sizing: border-box;
   margin: 0;
   border: 0;
   font-family: 'Roboto', sans-serif;
@@ -15,27 +16,40 @@ body {
 }
 
 .title {
-  padding: 50px 25px;
+  padding: 50px  25px;
+  
+  
   text-align: center;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 50px;
   margin: 0;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 300;
 }
 
 img {
   display: block;
   width: 100%;
+  border: solid 2px black
 }
 
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
+  }
+  h1 {
+    font-size: 20pxh;
+    margin: 0;
+  }
+  
+  h4 {
+    font-size: 24px;
+    font-weight: 300;
+  }
   }
 }
